@@ -1,0 +1,104 @@
+{
+    "key": "group_60b7e73c5bac7",
+    "title": "Block - Spacing",
+    "fields": [
+        {
+            "key": "field_60f646d02af19",
+            "label": "Spacing",
+            "name": "spc_spacing",
+            "type": "group",
+            "instructions": "This section allow to add spacing between each sections. Please add the number of pixel.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": "spc_spacing"
+            },
+            "layout": "table",
+            "sub_fields": [
+                {
+                    "key": "field_60f6471c2af1a",
+                    "label": "On Desktop <small>Screen size: 1024px<\/small>",
+                    "name": "spc_on_desktop",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 20,
+                    "placeholder": "Enter the number",
+                    "prepend": "px",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_60f64868a67ed",
+                    "label": "On Tablet <small>Screen size: 1024px - 768px<\/small>",
+                    "name": "spc_on_tablet",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "Enter the number",
+                    "prepend": "px",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_60f6476a2af1b",
+                    "label": "On Mobile <small>Screen size: 480px<\/small>",
+                    "name": "spc_on_mobile",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 20,
+                    "placeholder": "Enter the number",
+                    "prepend": "px",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/spacing"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1626759697
+}

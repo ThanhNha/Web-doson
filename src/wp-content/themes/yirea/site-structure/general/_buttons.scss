@@ -1,0 +1,146 @@
+.border-gradient {
+  border: 5px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+}
+.border {
+  border-top: 2px solid;
+  border-left: 0px solid;
+  border-right: 0px solid;
+  border-bottom: 2px solid;
+}
+.border-gradient {
+  border-image: linear-gradient(86.05deg, #f2be4d 0.89%, #ffe57e 37.46%, #ffd067 97.61%) 1 0 !important;
+}
+.border-gradient-green {
+  border-image-source: linear-gradient(to left, #00c853, #b2ff59);
+}
+
+.btn {
+  position: relative;
+  outline: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 17px !important;
+  border-radius: 0px !important;
+  text-transform: uppercase;
+  overflow: hidden;
+  border: 1px solid transparent;
+}
+// Button have background color
+.btn-hover-1 {
+  background-color: #fff;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  &:hover {
+    border: 1px solid $color-blue-navi;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    &::before {
+      transform: translateX(0);
+      transition-property: all;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 300ms;
+    }
+    &::after {
+      border: 1px solid $color-blue-navi;
+      transition-property: all;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 300ms;
+    }
+  }
+  &:focus {
+    background-color: $color-yellow;
+    border: 1px solid $color-blue-navi;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    &::before {
+      transform: translateX(0);
+      transition-property: all;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 300ms;
+    }
+    &::after {
+      border-color: $color-blue-navi;
+      transition-property: all;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 300ms;
+    }
+  }
+  // &:disabled {
+  //   @apply border-gray-400 bg-gray-600 text-white;
+  // }
+  &::before {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-105%);
+    background-color: rgba(24, 35, 79, 0.8);
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    content: "";
+  }
+  &::after {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    content: "";
+  }
+}
+// Button with outline
+
+.btn-hover-2 {
+  background-color: transparent;
+  border: 1px solid;
+  border-color: $color-yellow;
+  color: $color-yellow;
+  &:hover {
+    border-color: $color-blue-navi;
+    color: $color-blue-navi;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    &::before {
+      transform: translateX(0);
+      transition-property: all;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 300ms;
+    }
+    &::after {
+      border-color: $color-blue-navi;
+      transition-property: all;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 300ms;
+    }
+  }
+  &:focus {
+    border-color: $color-blue-navi;
+    color: $color-blue-navi;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    &::before {
+      transform: translateX(0);
+      transition-property: all;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 300ms;
+    }
+    &::after {
+      border-color: $color-blue-navi;
+      transition-property: all;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 300ms;
+    }
+  }
+}

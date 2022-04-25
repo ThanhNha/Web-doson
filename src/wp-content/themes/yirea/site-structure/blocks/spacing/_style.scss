@@ -1,0 +1,48 @@
+.wp-admin #spc_spacing{
+    background: #f9f9f9!important;
+}
+#spc_spacing{
+    .spc_on_desktop{
+        display: flex;
+        @media (max-width: 1024px) {
+            display: none;
+        }
+        @media screen and (max-width: 480px) {
+            display: none;
+        }
+    }
+
+    .spc_on_tablet{
+        display: none;
+        @media (max-width: 1024px) {
+            display: flex;
+        }
+        @media screen and (max-width: 480px) {
+            display: none;
+        }
+    }
+
+    .spc_on_mobile{
+        display: none;
+        @media (max-width: 1024px) {
+            display: none;
+        }
+        @media screen and (max-width: 480px) {
+            display: flex;
+        }
+    }
+
+
+    .on-desktop{
+        display: flex;
+        @media screen and (max-width: 991px){
+            display: none;
+        }
+    }
+    .on-mobile{
+        display: none;
+        @media screen and (max-width: 991px){
+            display: flex;
+        }
+    }
+}

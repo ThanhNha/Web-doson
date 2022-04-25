@@ -1,0 +1,8 @@
+//Import Icomoon
+@include font-face(icomoon, "../fonts/icomoon/icomoon", 300);
+
+// import font Sanfrancisco
+@include font-face(Sanfrancisco, "../fonts/Sanfrancisco/SanFranciscoDisplay-Bold", 900);
+@include font-face(Sanfrancisco, "../fonts/Sanfrancisco/SanFranciscoDisplay-Semibold", 600);
+@include font-face(Sanfrancisco, "../fonts/Sanfrancisco/SanFranciscoDisplay-Medium", 400);
+@include font-face(Sanfrancisco, "../fonts/Sanfrancisco/SanFranciscoDisplay-Regular", 200);
