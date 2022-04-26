@@ -17,12 +17,6 @@ function header() {
       });
     });
 
-    //Animation
-
-    $(document).ready(function () {
-      $("body.hero-anime").removeClass("hero-anime");
-    });
-
     //Menu On Hover
 
     $("body").on("mouseenter mouseleave", ".nav-item", function (e) {
@@ -36,15 +30,5 @@ function header() {
     });
 
     //Switch light/dark
-
-    $("#switch").on("click", function () {
-      if ($("body").hasClass("dark")) {
-        $("body").removeClass("dark");
-        $("#switch").removeClass("switched");
-      } else {
-        $("body").addClass("dark");
-        $("#switch").addClass("switched");
-      }
-    });
   })(jQuery);
 }

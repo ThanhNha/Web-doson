@@ -1,3 +1,9 @@
-main#page{
-    min-height: 50vw;
+main#page {
+  min-height: 50vw;
+  .pageSpacing {
+    padding-top: 72px;
+    @media screen and (min-width: 768px) {
+      padding-top: 82px;
+    }
+  }
 }

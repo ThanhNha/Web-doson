@@ -1,6 +1,9 @@
+<?php 
+    global $post;
+    $post_slug = $post->post_name;
+?>
 <main id="page">
-
-  <?php the_content(); ?>
-
-
+    <div class="<?php if($post_slug != 'home') { echo 'pageSpacing';}?>">
+        <?php the_content(); ?>
+    </div>
 </main>

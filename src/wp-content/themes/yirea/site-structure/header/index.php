@@ -21,17 +21,20 @@
                         </button>
 
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <?php if( have_rows('menu_main' ,'option') ): ?>
                             <ul class="navbar-nav ml-auto py-4 py-md-0">
-                                <li class="nav-item pl-4 pl-md-2 pl-lg-4 py-md-0 py-2 ml-0 ml-md-4 active">
-                                    <a class="nav-link sub-heading body-text">Trang Chủ</a>
-                                </li>
-                                <li class="nav-item pl-4 pl-md-2 pl-lg-4 py-md-0 py-2 ml-0 ml-md-4">
-                                    <a class="nav-link sub-heading body-text " href="#">Giới Thiệu</a>
-                                </li>
-                                <li class="nav-item pl-4 pl-md-2 pl-lg-4 py-md-0 py-2 ml-0 ml-md-4">
-                                    <a class="nav-link sub-heading body-text dropdown-toggle" data-toggle="dropdown"
-                                        href="#" role="button" aria-haspopup="true" aria-expanded="false" href="#">Dịch
-                                        Vụ</a>
+                                <?php while( have_rows('menu_main' ,'option') ): the_row(); 
+                                        $menu_name = get_sub_field('menu_name');
+                                        $menu_link = get_sub_field('menu_link');
+                                ?>
+                                <li
+                                    class="nav-item pl-4 pl-md-2 pl-lg-4 py-md-0 py-2 ml-0 ml-md-4 <?php if(get_permalink()== $menu_link){echo 'active';}?>">
+                                    <a class="nav-link sub-heading body-text <?php if( have_rows('sub_menu' ,'option') ){echo 'dropdown-toggle';} ?>" <?php if( have_rows('sub_menu' ,'option') ){echo ' dropdown-toggle" data-toggle="dropdown"
+                                        href="#" role="button" aria-haspopup="true" aria-expanded="false"';} ?>
+                                        href="<?echo $menu_link;?>">
+                                        <?echo $menu_name;?>
+                                    </a>
+                                    <?php if( have_rows('sub_menu' ,'option') ): ?>
                                     <div class="icon-down ml-2"><svg width="10" height="6" viewBox="0 0 10 6"
                                             fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -40,21 +43,21 @@
                                         </svg>
                                     </div>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <?php while( have_rows('sub_menu','option') ): the_row(); 
+                                            $sub_name = get_sub_field('sub_name');
+                                            $sub_link = get_sub_field('sub_link');
+                                        ?>
+                                        <a class="dropdown-item" href="<?echo $sub_link;?>">
+                                            <?echo $sub_name;?>
+                                        </a>
+                                        <?php endwhile; ?>
                                     </div>
+                                    <?php endif; ?>
                                 </li>
-                                <li class="nav-item pl-4 pl-md-2 pl-lg-4 py-md-0 py-2 ml-0 ml-md-4">
-                                    <a class="nav-link sub-heading body-text ">Tin Tức</a>
-                                </li>
-                                <li class="nav-item pl-4 pl-md-2 pl-lg-4 py-md-0 py-2 ml-0 ml-md-4">
-                                    <a class="nav-link sub-heading body-text " href="#">Liên Hệ</a>
-                                </li>
+                                <?php endwhile; ?>
                             </ul>
+                            <?php endif; ?>
                         </div>
-
                     </nav>
                 </div>
             </div>
