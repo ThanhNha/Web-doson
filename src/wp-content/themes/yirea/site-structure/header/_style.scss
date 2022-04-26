@@ -8,12 +8,6 @@
   transform: translateY(0);
   padding: 5px 0;
   transition: all 0.3s ease-out;
-  @media (min-width: 768px) {
-    padding: 8px 0;
-  }
-  @media (min-width: 991px) {
-    padding: 10px 0;
-  }
 }
 .start-header.scroll-on {
   box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
@@ -219,7 +213,6 @@
     content: "";
     border: none;
     background-color: #000;
-    vertical-align: 0;
   }
   .dropdown-toggle::after {
     position: absolute;
@@ -232,7 +225,6 @@
     content: "";
     border: none;
     background-color: #000;
-    vertical-align: 0;
     transition: all 200ms linear;
   }
   .dropdown-toggle[aria-expanded="true"]::after {

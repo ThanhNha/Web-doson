@@ -50,7 +50,8 @@
                                     <a class="nav-link sub-heading body-text ">Tin Tức</a>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-2 pl-lg-4 py-md-0 py-2 ml-0 ml-md-4">
-                                    <a class="nav-link sub-heading body-text " href="#">Liên Hệ</a>
+                                    <a class="nav-link sub-heading body-text " href="http://localhost:82/lien-he/">Liên
+                                        Hệ</a>
                                 </li>
                             </ul>
                         </div>
