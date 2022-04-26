@@ -63,16 +63,18 @@
                         <div class="footer-widget-heading">
                             <h3>Liên Kết Nhanh</h3>
                         </div>
+                        <?php if( have_rows('menu_main' ,'option') ): ?>
                         <ul>
-                            <li><a href="#">Trang chủ</a></li>
-                            <li><a href="#">Giới thiệu</a></li>
-                            <li><a href="#">Dịch vụ</a></li>
-                            <li><a href="#">Liên hệ</a></li>
-                            <li><a href="#">Trang chủ</a></li>
-                            <li><a href="#">Giới thiệu</a></li>
-                            <li><a href="#">Dịch vụ</a></li>
-                            <li><a href="#">Liên hệ</a></li>
+                            <?php while( have_rows('menu_main' ,'option') ): the_row(); 
+                                        $menu_name = get_sub_field('menu_name');
+                                        $menu_link = get_sub_field('menu_link');
+                                ?>
+                            <li>
+                                <a href="<?php echo $menu_link; ?>"><?php echo $menu_name; ?></a>
+                            </li>
+                            <?php endwhile; ?>
                         </ul>
+                        <?php endif; ?>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 mb-2">

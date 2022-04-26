@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="contact-block">
-                        <form id="contactForm" novalidate="true">
+                        <!-- <form id="contactForm" novalidate="true">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
@@ -47,7 +47,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </form>
+                        </form> -->
+                        <?php echo do_shortcode('[formidable id=1]'); ?>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">

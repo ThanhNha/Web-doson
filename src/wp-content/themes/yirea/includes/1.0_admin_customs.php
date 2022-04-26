@@ -29,7 +29,7 @@ function shin_wp_admin_bar_remove() {
  */
 add_filter('admin_footer_text', 'shin_change_footer_text');
 function shin_change_footer_text() {
-    echo "Core developed by <a href='www.theshin.com' target='_blank'>Shin</a>";
+    echo "Core developed by <a href='http://www.theshin.online/' target='_blank'>Shin</a>";
 }
 
 
