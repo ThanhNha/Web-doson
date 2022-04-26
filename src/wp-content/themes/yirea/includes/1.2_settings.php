@@ -27,9 +27,32 @@ add_filter('nav_menu_css_class', 'add_additional_class_on_li', 1, 3);
 function add_additional_class_on_li($classes, $item, $args) {
     if(isset($args->add_li_class)) {
         $classes[] = $args->add_li_class;
-    }    
+    }
     return $classes;
 }
+
+// add_filter( 'nav_menu_submenu_css_class', 'add_class_submenu_css_class' );
+// function add_class_submenu_css_class( $classes ) {
+//     if(isset($args->sub_menu_class)) {
+//         $classes[] = $args->sub_menu_class;
+//     }    
+//     return $classes;
+// }
+function my_nav_menu_submenu_css_class( $classes ) {
+    $classes[] = 'dropdown-menu';
+    return $classes;
+}
+add_filter( 'nav_menu_submenu_css_class', 'my_nav_menu_submenu_css_class' );
+
+add_filter('nav_menu_link_attributes', 'add_additional_class_on_a', 1, 3);
+function add_additional_class_on_a($classes, $item, $args)
+{
+    if (isset($args->a_class)) {
+        $classes['class'] = $args->a_class;
+    }
+    return $classes;
+}
+
 
 
 /*

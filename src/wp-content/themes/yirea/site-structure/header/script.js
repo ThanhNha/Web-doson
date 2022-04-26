@@ -17,8 +17,6 @@ function header() {
       });
     });
 
-    //Animation
-
     //Menu On Hover
 
     $("body").on("mouseenter mouseleave", ".nav-item", function (e) {
@@ -32,11 +30,5 @@ function header() {
     });
 
     //Switch light/dark
-
-    ScrollTrigger.create({
-      start: "top -60",
-      end: 99999,
-      toggleClass: { className: "scrolled", targets: "#header" },
-    });
   })(jQuery);
 }
