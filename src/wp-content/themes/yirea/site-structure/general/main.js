@@ -11,7 +11,7 @@ $(document).ready(function () {
     }
   }
   $("p:empty").remove();
+  // Animation
   //Block function
   header();
-  buttonAnimation();
 });
