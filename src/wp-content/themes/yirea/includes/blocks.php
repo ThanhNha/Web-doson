@@ -82,6 +82,16 @@ function shin_acf_init_block_types() {
             'keywords' => array('blockMap', '2'),
             'mode' => 'auto',
         ));
+        acf_register_block_type(array(
+            'name' => 'blockAbout',
+            'title' => __('blockAbout'),
+            'description' => __('A custom blockAbout block.'),
+            'render_template' => 'site-structure/blocks/blockAbout/index.php',
+            'category' => 'shin-blocks',
+            'icon' => 'admin-customizer',
+            'keywords' => array('blockAbout', '2'),
+            'mode' => 'auto',
+        ));
 
     }
 }

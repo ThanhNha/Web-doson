@@ -12,6 +12,7 @@ $(document).ready(function () {
   }
   $("p:empty").remove();
   // Animation
+  countData();
   //Block function
   header();
 });
