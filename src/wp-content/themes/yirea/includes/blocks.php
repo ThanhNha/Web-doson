@@ -92,6 +92,26 @@ function shin_acf_init_block_types() {
             'keywords' => array('blockAbout', '2'),
             'mode' => 'auto',
         ));
+        acf_register_block_type(array(
+            'name' => 'blockServices',
+            'title' => __('blockServices'),
+            'description' => __('A custom blockServices block.'),
+            'render_template' => 'site-structure/blocks/blockServices/index.php',
+            'category' => 'shin-blocks',
+            'icon' => 'admin-customizer',
+            'keywords' => array('blockServices', '2'),
+            'mode' => 'auto',
+        ));
+        acf_register_block_type(array(
+            'name' => 'blockBlog',
+            'title' => __('blockBlog'),
+            'description' => __('A custom blockBlog block.'),
+            'render_template' => 'site-structure/blocks/blockBlog/index.php',
+            'category' => 'shin-blocks',
+            'icon' => 'admin-customizer',
+            'keywords' => array('blockBlog', '2'),
+            'mode' => 'auto',
+        ));
 
     }
 }

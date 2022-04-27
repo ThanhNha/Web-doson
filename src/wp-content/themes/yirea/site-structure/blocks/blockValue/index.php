@@ -1,4 +1,4 @@
-<div class="counters section bg-defult">
+<div id="counters_value" class="counters section bg-defult">
     <div class="container">
         <div class="row">
             <div class="col-sm-6 col-md-6 col-lg-3">

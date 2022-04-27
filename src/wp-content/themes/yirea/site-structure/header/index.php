@@ -35,7 +35,7 @@
                                         <?echo $menu_name;?>
                                     </a>
                                     <?php if( have_rows('sub_menu' ,'option') ): ?>
-                                    <div class="icon-down d-flex ml-2">
+                                    <div class="icon-down ml-2">
                                         <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path

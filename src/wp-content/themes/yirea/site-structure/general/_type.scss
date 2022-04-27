@@ -1,5 +1,5 @@
 body {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 120%;
   font-family: $font-primary;
   font-weight: 200;
@@ -23,7 +23,7 @@ body {
   text-transform: uppercase;
 }
 .text-yellow {
-  color: $color-yellow !important;
+  color: $color-green-500 !important;
 }
 
 .h1,
@@ -44,17 +44,17 @@ body {
 
 .h1 {
   font-size: 72px;
-  line-height: 150%;
+  line-height: 120%;
 }
 
 .h2 {
   font-size: 40px;
-  line-height: 150%;
+  line-height: 120%;
 }
 
 .h3 {
   font-size: 24px;
-  line-height: 150%;
+  line-height: 120%;
 }
 
 .sub-heading {

@@ -12,7 +12,7 @@ $(document).ready(function () {
   }
   $("p:empty").remove();
   // Animation
-  countData();
+  // countData();
   //Block function
   header();
 });

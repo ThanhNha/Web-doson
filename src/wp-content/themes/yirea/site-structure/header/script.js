@@ -28,7 +28,5 @@ function header() {
         }, 1);
       }
     });
-
-    //Switch light/dark
   })(jQuery);
 }

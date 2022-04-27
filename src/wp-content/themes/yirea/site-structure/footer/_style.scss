@@ -1,5 +1,5 @@
 .footer-section {
-  background: $color-blue-navi;
+  background: $color-green-500;
   position: relative;
   margin-top: 24px;
   @media (min-width: 768px) {
@@ -16,7 +16,7 @@
   display: flex;
 }
 .single-cta i {
-  color: $color-yellow;
+  color: $color-red-500;
   font-size: 30px;
   margin-top: 8px;
 }
@@ -25,7 +25,7 @@
   display: inline-block;
 }
 .cta-text h4 {
-  color: $color-yellow;
+  color: $color-red-500;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 2px;
@@ -105,7 +105,7 @@
   bottom: -15px;
   height: 2px;
   width: 50px;
-  background: $color-yellow;
+  background: $color-red-500;
 }
 .footer-widget ul li {
   display: inline-block;
@@ -114,7 +114,7 @@
   margin-bottom: 12px;
 }
 .footer-widget ul li a:hover {
-  color: $color-yellow;
+  color: $color-red-500;
 }
 .footer-widget ul li a {
   color: #dfdfdf;
@@ -134,9 +134,9 @@
 .subscribe-form button {
   position: absolute;
   right: 0;
-  background: $color-yellow;
+  background: $color-red-500;
   padding: 13px 20px;
-  border: 1px solid $color-yellow;
+  border: 1px solid $color-red-500;
   top: 0;
 }
 .subscribe-form button i {
@@ -154,14 +154,14 @@
   color: #878787;
 }
 .copyright-text p a {
-  color: $color-yellow;
+  color: $color-red-500;
 }
 .footer-menu li {
   display: inline-block;
   margin-left: 20px;
 }
 .footer-menu li:hover a {
-  color: $color-yellow;
+  color: $color-red-500;
 }
 .footer-menu li a {
   font-size: 14px;

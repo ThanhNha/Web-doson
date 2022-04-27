@@ -1,24 +1,70 @@
-<section id="blockWelcome">
+<section id="about-area" class="section">
     <div class="container">
-        <div class="p-2 p-md-4 p-lg-5">
-            <div class="d-flex justify-content-center align-items-center">
-                <div class="title-wrapper position-relative d-flex align-items-center justify-content-center">
-                    <div class="line"></div>
-                    <div class="position-absolute title">
-                        <h2 class="text-yellow">Welcome</h2>
+        <div class="section-header">
+            <h2 class="section-title">About Us</h2>
+            <span>About</span>
+            <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos debitis.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="counter-item">
+                            <div class="icon">
+                                <i class="lni lni-rocket"></i>
+                            </div>
+                            <div class="fact-count">
+                                <h3><span class="counter">1000</span>+</h3>
+                                <h4>Faster</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="counter-item">
+                            <div class="icon">
+                                <i class="lni lni-coffee-cup"></i>
+                            </div>
+                            <div class="fact-count">
+                                <h3><span class="counter">700</span></h3>
+                                <h4>Cup of Coffee</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="counter-item">
+                            <div class="icon">
+                                <i class="lni lni-user"></i>
+                            </div>
+                            <div class="fact-count">
+                                <h3><span class="counter">3000</span>+</h3>
+                                <h4>Active Clients</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="counter-item">
+                            <div class="icon">
+                                <i class="lni lni-heart"></i>
+                            </div>
+                            <div class="fact-count">
+                                <h3><span class="counter">1689</span>+</h3>
+                                <h4>Peoples Love</h4>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="description text-center">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Accusamus corporis ea facilis id minus nesciunt nisi,
-                officia perspiciatis quae quas repellat reprehenderit?
-                Blanditiis facere quasi quos sapiente, similique ut voluptas.
-            </div>
-            <div class="d-flex justify-content-center align-items-center mt-3">
-                <a class="btn-hover-2 px-2 px-lg-4 py-2" href="">Liên hệ với chúng tôi</a>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="about-thumb">
+                    <img src="https://via.placeholder.com/350" alt="">
+                </div>
+                <div class="about-thumb-2">
+                    <img src="https://via.placeholder.com/350" alt="">
+                </div>
             </div>
         </div>
-
     </div>
 </section>

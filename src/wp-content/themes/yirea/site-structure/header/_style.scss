@@ -87,7 +87,7 @@
 }
 .nav-link {
   font-size: 16px;
-  color: $color-blue-navi !important;
+  color: #000000 !important;
   font-weight: 500;
   transition: all 200ms linear;
   text-transform: uppercase;
@@ -100,9 +100,9 @@
   .icon-down {
     display: none;
     @media (min-width: 991px) {
-      display: block;
+      display: flex;
     }
-    color: $color-blue-navi;
+    color: #000000;
     transition: all 0.3s linear;
   }
   &:hover {
@@ -112,10 +112,10 @@
   }
 }
 .nav-item:hover .nav-link {
-  color: $color-blue !important;
+  color: $color-red-800 !important;
 }
 .nav-item.active .nav-link {
-  color: $color-blue-navi !important;
+  color: $color-red-800 !important;
 }
 .nav-link {
   cursor: pointer;
@@ -126,15 +126,19 @@
 .nav-item:after {
   position: absolute;
   bottom: -5px;
-  left: 0;
-  width: 100%;
+  right: 0px;
+  width: 50%;
   height: 2px;
   content: "";
-  background-color: $color-blue;
+  background-color: $color-red-500;
   opacity: 0;
   transition: all 200ms linear;
 }
 .nav-item:hover:after {
+  bottom: 0;
+  opacity: 1;
+}
+.nav-item.active:after {
   bottom: 0;
   opacity: 1;
 }
@@ -166,7 +170,7 @@
   transform: translate3d(0, 0px, 0);
 }
 .dropdown-menu {
-  padding: 10px !important;
+  padding: 15px 20px !important;
   margin: 0;
   font-size: 13px;
   letter-spacing: 1px;
@@ -190,7 +194,7 @@
 .dropdown-item:hover,
 .dropdown-item:focus {
   color: #fff;
-  background-color: $color-blue-navi;
+  background-color: $color-red-500;
 }
 
 /* #Media

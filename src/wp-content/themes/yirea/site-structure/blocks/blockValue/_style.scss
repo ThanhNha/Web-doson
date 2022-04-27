@@ -1,4 +1,60 @@
-section#blockValue{
+#counters_value {
+  .block-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #263238;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    position: relative;
+  }
 
-    
+  .counters .facts-item {
+    text-align: center;
+    color: #fff;
+    border: 1px dotted #fff;
+    border-radius: 4px;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+  .counters .facts-item .icon {
+    margin-bottom: 15px;
+  }
+  .counters .facts-item .icon i {
+    font-size: 40px;
+    color: #fff;
+  }
+  .counters .facts-item .fact-count h3 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 40px;
+  }
+  .counters .facts-item .fact-count h4 {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  .counter-item {
+    text-align: center;
+    padding: 30px;
+    background: #f9f9f9;
+    border: 1px solid #eaeaea;
+    margin: 15px 0;
+  }
+  .counter-item .icon {
+    margin-bottom: 20px;
+  }
+  .counter-item .icon i {
+    font-size: 40px;
+    color: $color-blue-navi;
+  }
+  .counter-item .fact-count h3 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+  }
+  .counter-item .fact-count h4 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
 }

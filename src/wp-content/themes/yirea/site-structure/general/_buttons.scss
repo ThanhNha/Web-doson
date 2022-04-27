@@ -10,7 +10,13 @@
   border-bottom: 2px solid;
 }
 .border-gradient {
-  border-image: linear-gradient(86.05deg, #f2be4d 0.89%, #ffe57e 37.46%, #ffd067 97.61%) 1 0 !important;
+  border-image: linear-gradient(
+      86.05deg,
+      $color-red-200 0.89%,
+      $color-red-500 37.46%,
+      $color-red-800 97.61%
+    )
+    1 0 !important;
 }
 .border-gradient-green {
   border-image-source: linear-gradient(to left, #00c853, #b2ff59);
@@ -34,7 +40,7 @@
   border: 1px solid #000;
   box-sizing: border-box;
   &:hover {
-    border: 1px solid $color-blue-navi;
+    border: 1px solid $color-red-500;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 300ms;
@@ -45,15 +51,15 @@
       transition-duration: 300ms;
     }
     &::after {
-      border: 1px solid $color-blue-navi;
+      border: 1px solid $color-red-500;
       transition-property: all;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
       transition-duration: 300ms;
     }
   }
   &:focus {
-    background-color: $color-yellow;
-    border: 1px solid $color-blue-navi;
+    background-color: $color-green-500;
+    border: 1px solid $color-red-500;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 300ms;
@@ -64,7 +70,7 @@
       transition-duration: 300ms;
     }
     &::after {
-      border-color: $color-blue-navi;
+      border-color: $color-red-500;
       transition-property: all;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
       transition-duration: 300ms;
@@ -101,46 +107,78 @@
 // Button with outline
 
 .btn-hover-2 {
-  background-color: transparent;
-  border: 1px solid;
-  border-color: $color-yellow;
-  color: $color-yellow;
+  display: flex-inline;
+  background: linear-gradient(267.48deg, #f8826e 1.44%, #e15a41 90.95%);
+  border-radius: 30px;
+  padding: 14px 24px;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: all 0.4s ease;
+  border: 1px solid transparent;
   &:hover {
-    border-color: $color-blue-navi;
-    color: $color-blue-navi;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 300ms;
-    &::before {
-      transform: translateX(0);
-      transition-property: all;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-      transition-duration: 300ms;
-    }
-    &::after {
-      border-color: $color-blue-navi;
-      transition-property: all;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-      transition-duration: 300ms;
-    }
+    border: 1px solid $color-red-800;
+    background: #fff;
+    color: $color-red-500;
   }
-  &:focus {
-    border-color: $color-blue-navi;
-    color: $color-blue-navi;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 300ms;
-    &::before {
-      transform: translateX(0);
-      transition-property: all;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-      transition-duration: 300ms;
-    }
-    &::after {
-      border-color: $color-blue-navi;
-      transition-property: all;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-      transition-duration: 300ms;
-    }
-  }
+}
+
+.btn:focus,
+.btn:active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  color: #fff;
+}
+.btn-common {
+  background-color: $color-red-500;
+  position: relative;
+  z-index: 1;
+  padding: 12px 32px;
+  border-radius: 30px;
+}
+.btn-common:hover {
+  color: #fff;
+}
+.btn-effect {
+  overflow: hidden;
+}
+.btn-effect:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.btn-effect:hover:after {
+  width: 100%;
+}
+.btn-border {
+  border-style: solid;
+  border-width: 2px;
+  cursor: pointer;
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+.btn-border:hover {
+  color: #fff;
+  background-color: $color-red-500;
+}
+.btn-lg {
+  padding: 14px 33px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.btn-rm {
+  padding: 7px 10px;
+  text-transform: capitalize;
+}
+button:focus {
+  outline: none !important;
 }

@@ -1,0 +1,129 @@
+.bg-transparent {
+  background: 0 0 !important;
+}
+.bg-defult {
+  background: $color-red-500 !important;
+}
+.section {
+  padding: 80px 0;
+}
+.section-header {
+  color: #fff;
+  margin-bottom: 40px;
+  text-align: center;
+  position: relative;
+}
+.section-header .section-title {
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-family: montserrat, sans-serif;
+  font-weight: 700;
+  // color: #263238;
+  color: $color-red-200;
+  position: relative;
+}
+.section-header .section-title:before {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  width: 80px;
+  height: 2px;
+  background: $color-green-500;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.section-header span {
+  font-size: 60px;
+  color: rgba(0, 0, 0, 0.07);
+  z-index: 2;
+  font-family: montserrat, sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 100%;
+}
+
+.social-icons {
+  margin-bottom: 20px;
+}
+.social-icons ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.social-icons ul li {
+  display: inline;
+}
+.social-icons ul li a {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 254, 254, 0.07);
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+}
+.social-icons ul li a:hover {
+  color: #fff;
+}
+.facebook a {
+  color: #4867aa;
+}
+.facebook a:hover {
+  background: #4867aa;
+}
+.twitter a {
+  color: #1da1f2;
+}
+.twitter a:hover {
+  background: #1da1f2;
+}
+.google-plus a {
+  color: #dd4d42;
+}
+.google-plus a:hover {
+  background: #dd4d42;
+}
+.youtube a {
+  color: #df2926;
+}
+.youtube a:hover {
+  background: #df2926;
+}
+.linkedin a {
+  color: #007bb6;
+}
+.linkedin a:hover {
+  background: #007bb6;
+}
+.pinterest a {
+  color: #bd081c;
+}
+.pinterest a:hover {
+  background: #bd081c;
+}
+.dribbble a {
+  color: #ea4c89;
+}
+.dribbble a:hover {
+  background: #ea4c89;
+}
+.behance a {
+  color: #0b7cff;
+}
+.behance a:hover {
+  background: #0b7cff;
+}
+.spinner {
+  width: 40px;
+  height: 40px;
+  top: 45%;
+  position: relative;
+  margin: 0 auto;
+}

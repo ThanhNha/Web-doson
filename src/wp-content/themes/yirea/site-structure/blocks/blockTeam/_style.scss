@@ -1,0 +1,76 @@
+.single-team:hover .team-details {
+  opacity: 1;
+}
+.single-team {
+  margin-bottom: 30px;
+  position: relative;
+  background: #f9f9f9;
+  border-radius: 4px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-shadow: 0 10px 50px 0 rgba(84, 110, 122, 0.15);
+  box-shadow: 0 10px 50px 0 rgba(84, 110, 122, 0.15);
+  border-radius: 0;
+  overflow: hidden;
+}
+.single-team:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  -webkit-box-shadow: 0 10px 50px 0 rgba(84, 110, 122, 0.35);
+  box-shadow: 0 10px 50px 0 rgba(84, 110, 122, 0.35);
+}
+.single-team img {
+  width: 100%;
+}
+.single-team .team-inner {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.single-team .team-details {
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.single-team .team-details .team-title {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #263238;
+}
+.single-team .team-details p {
+  margin-bottom: 15px;
+}
+.single-team .social-list li {
+  display: inline-block;
+}
+.single-team .social-list li a {
+  display: block;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  width: 34px;
+  color: $color-blue-navi;
+  font-size: 14px;
+  background: #fff;
+  border-radius: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.single-team .social-list .facebook a:hover {
+  background: #4867aa;
+  color: #fff;
+}
+.single-team .social-list .twitter a:hover {
+  background: #1da1f2;
+  color: #fff;
+}
+.single-team .social-list .google-plus a:hover {
+  background: #dd4d42;
+  color: #fff;
+}
+.single-team .social-list .linkedin a:hover {
+  background: #007bb6;
+  color: #fff;
+}

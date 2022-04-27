@@ -18,15 +18,15 @@ main#page404 {
   }
   .btnStyle {
     color: #ffffff;
-    background: $color-blue-navi;
+    background: $color-green-500;
     border: 1px solid transparent;
     border-radius: 5px;
     padding: 10px 40px;
     display: block;
     margin-top: 40px;
     &:hover {
-      color: $color-blue-navi;
-      border-color: $color-blue-navi;
+      color: $color-green-500;
+      border-color: $color-green-500;
       background: transparent;
     }
   }
