@@ -1,4 +1,6 @@
 #blog .blog-item-wrapper {
+  overflow: hidden;
+  position: relative;
   margin-bottom: 30px;
   background: #fff;
   border-radius: 4px;
@@ -10,6 +12,16 @@
   transition: transform 0.2s linear, box-shadow 0.2s linear;
   transition: transform 0.2s linear, box-shadow 0.2s linear, -webkit-transform 0.2s linear,
     -webkit-box-shadow 0.2s linear;
+
+  &:hover {
+    img {
+      box-shadow: 0 10px 50px 0 rgba(84, 110, 122, 0.35);
+    }
+    .service-detail {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
 }
 #blog .blog-item-wrapper:hover {
   -webkit-box-shadow: 0 10px 50px 0 rgba(84, 110, 122, 0.35);
@@ -21,11 +33,27 @@
   opacity: 1;
 }
 #blog .blog-item-img {
+  overflow: hidden;
   position: relative;
+  .service-detail {
+    top: 0;
+    opacity: 0;
+    transition: all 0.2s linear;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    transform: translateY(100%);
+    .description {
+      color: #fff;
+    }
+  }
 }
 #blog .blog-item-img img {
   width: 100%;
   border-radius: 4px;
+  transition: all 0.3s linear;
 }
 #blog .blog-item-text {
   padding: 20px 30px;
@@ -47,9 +75,9 @@
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 10px;
-}
-#blog .blog-item-text h3 a {
-  color: #263238;
+  @media (min-width: 768px) {
+    font-size: 20px;
+  }
 }
 #blog .blog-item-text h3 a:hover {
   color: $color-green-500;

@@ -41,8 +41,8 @@ function countData() {
     });
   };
   var reset = function reset() {
-    // console.log($(this).scrollTop())
-    if ($(this).scrollTop() > 100) {
+    // console.log($(this).scrollTop());
+    if ($(this).scrollTop() > 2100) {
       $(this).off("scroll");
       fx();
     }

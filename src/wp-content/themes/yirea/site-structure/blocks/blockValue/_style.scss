@@ -1,4 +1,4 @@
-#counters_value {
+#about-area {
   .block-title {
     font-size: 14px;
     font-weight: 500;
@@ -37,7 +37,7 @@
   .counter-item {
     text-align: center;
     padding: 30px;
-    background: #f9f9f9;
+    background: #adadad;
     border: 1px solid #eaeaea;
     margin: 15px 0;
   }
@@ -46,12 +46,13 @@
   }
   .counter-item .icon i {
     font-size: 40px;
-    color: $color-blue-navi;
+    color: $color-green-500;
   }
   .counter-item .fact-count h3 {
     font-size: 50px;
     font-weight: 500;
     line-height: 60px;
+    color: white;
   }
   .counter-item .fact-count h4 {
     font-size: 18px;
