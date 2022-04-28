@@ -1,5 +1,5 @@
 <header id="header">
-    <div class="navigation-wrap bg-blur start-header start-style border border-gradient">
+    <div class="navigation-wrap bg-blur start-header start-style border border-not-top border-gradient">
         <div class="container">
             <div class="row">
                 <div class="col-12">

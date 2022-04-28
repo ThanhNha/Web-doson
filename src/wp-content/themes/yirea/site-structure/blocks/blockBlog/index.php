@@ -33,7 +33,7 @@
                 <div class="blog-item-wrapper">
                     <div class="blog-item-img p-2">
                         <div class="">
-                            <img src="http://localhost:82/wp-content/uploads/2022/04/SEC2_IMG1.png" alt="">
+                            <img src="http://localhost:82/wp-content/uploads/2022/04/SEC2_IMG2.png" alt="">
                         </div>
                         <div class="service-detail p-3">
                             <p class="p1 description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae,
@@ -57,7 +57,7 @@
                 <div class="blog-item-wrapper">
                     <div class="blog-item-img p-2">
                         <div class="">
-                            <img src="http://localhost:82/wp-content/uploads/2022/04/SEC2_IMG1.png" alt="">
+                            <img src="http://localhost:82/wp-content/uploads/2022/04/SEC2_IMG3.png" alt="">
                         </div>
                         <div class="service-detail p-3">
                             <p class="p1 description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae,

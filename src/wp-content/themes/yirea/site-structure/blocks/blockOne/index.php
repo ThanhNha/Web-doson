@@ -15,7 +15,7 @@
             </div>
 
             <div class="mt-2">
-                <a class="btn-hover-2 btn-lg" href="#">Liên hệ ngay</a>
+                <a class="btn btn-lg" href="#"><span>Liên hệ ngay</span></a>
             </div>
         </ul>
     </div>

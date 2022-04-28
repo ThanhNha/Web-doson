@@ -112,6 +112,16 @@ function shin_acf_init_block_types() {
             'keywords' => array('blockBlog', '2'),
             'mode' => 'auto',
         ));
+        acf_register_block_type(array(
+            'name' => 'blockTestimonial',
+            'title' => __('blockTestimonial'),
+            'description' => __('A custom blockTestimonial block.'),
+            'render_template' => 'site-structure/blocks/blockTestimonial/index.php',
+            'category' => 'shin-blocks',
+            'icon' => 'admin-customizer',
+            'keywords' => array('blockTestimonial', '2'),
+            'mode' => 'auto',
+        ));
 
     }
 }

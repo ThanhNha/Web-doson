@@ -5,7 +5,13 @@
   background: $color-red-500 !important;
 }
 .section {
-  padding: 70px 0;
+  padding: 35px 0;
+  @media (min-width: 991px) {
+    padding: 70px 0;
+  }
+  @media (min-width: 768px) {
+    padding: 49px 0;
+  }
 }
 .section-header {
   color: #fff;
@@ -20,7 +26,7 @@
   font-family: montserrat, sans-serif;
   font-weight: 700;
   // color: #263238;
-  color: $color-red-200;
+  color: $color-red-500;
   position: relative;
   @media (min-width: 768px) {
     font-size: 60px;

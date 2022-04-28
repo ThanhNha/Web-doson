@@ -11,8 +11,9 @@ $(document).ready(function () {
     }
   }
   $("p:empty").remove();
+  header();
+
   // Animation
   countData();
   //Block function
-  header();
 });
