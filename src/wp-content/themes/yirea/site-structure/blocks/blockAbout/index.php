@@ -8,11 +8,13 @@
                 </div>
             </div>
             <div class="lg:col-span-7 col-span-12">
-                <div class="relative h-full">
+                <div class=" relative h-full ">
                     <div class="absolute bottom-[10%] lg:left-[10%] left-[5%]">
                         <span class="uppercase text-gray-600 mb-2 font-semiboild sub-heading">doson media</span>
                         <div class="section-header text-left">
-                            <h2 class="section-title text-left text-red-500">Về chúng tôi</h2>
+                            <h2 class="animate animate__backInUp section-title text-left text-red-500">Về
+                                chúng
+                                tôi</h2>
                             <span>Cups</span>
                         </div>
                     </div>

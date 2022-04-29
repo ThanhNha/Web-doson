@@ -16,7 +16,7 @@
                         </div>
                         <a href="!#">
                             <div
-                                class="text-sm absolute top-0 right-0 blog-icon px-4 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">
+                                class="text-sm absolute top-0 right-0 blog-icon px-4 text-gray-800 rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3 hover:bg-white hover:text-green-500 transition duration-500 ease-in-out">
                                 <span class="font-bold">27</span>
                                 <small>March</small>
                             </div>
@@ -25,7 +25,7 @@
                 </a>
                 <div class="px-6 py-4">
                     <a href="#"
-                        class="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">Best
+                        class="font-semibold text-lg inline-block hover:text-green-500 transition duration-500 ease-in-out">Best
                         View in Newyork City</a>
                     <p class="text-gray-500 text-sm">
                         The city that never sleeps
@@ -58,7 +58,7 @@
                         </div>
                         <a href="!#">
                             <div
-                                class="text-sm absolute top-0 right-0 blog-icon px-4 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">
+                                class="text-sm absolute top-0 right-0 blog-icon px-4 text-gray-800 rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3 hover:bg-white hover:text-green-500 transition duration-500 ease-in-out">
                                 <span class="font-bold">20</span>
                                 <small>March</small>
                             </div>
@@ -67,7 +67,7 @@
                 </a>
                 <div class="px-6 py-4">
                     <a href="#"
-                        class="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">Best
+                        class="font-semibold text-lg inline-block hover:text-green-500 transition duration-500 ease-in-out">Best
                         Pizza in Town</a>
                     <p class="text-gray-500 text-sm">
                         The collection of best pizza images in Newyork city
@@ -101,7 +101,7 @@
                         </div>
                         <a href="!#">
                             <div
-                                class="text-sm absolute top-0 right-0 blog-icon px-4 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">
+                                class=" text-sm absolute top-0 right-0 blog-icon px-4 text-gray-800 rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3 hover:bg-white hover:text-green-500 transition duration-500 ease-in-out">
                                 <span class="font-bold">15</span>
                                 <small>April</small>
                             </div>
@@ -110,7 +110,7 @@
                 </a>
                 <div class="px-6 py-4">
                     <a href="#"
-                        class="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">Best
+                        class="font-semibold text-lg inline-block hover:text-green-500 transition duration-500 ease-in-out">Best
                         Salad Images ever</a>
                     <p class="text-gray-500 text-sm">
                         The collection of best salads of town in pictures

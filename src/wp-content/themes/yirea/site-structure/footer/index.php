@@ -1,5 +1,7 @@
 <footer id="footer" class="footer-section">
-    <div class="container" style="background: url('https://www.freepik.com/photos/teamwork-hands')">
+
+    <div class="container">
+
         <div class="footer-content  py-2 py-md-4">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-12 mb-50">
@@ -85,6 +87,8 @@
                             <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
                             <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
                             <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            <a href="#"><i class="fab fa-brands fa-tiktok bg-gray-700"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram bg-red-500 "></i></a>
                         </div>
 
                     </div>
