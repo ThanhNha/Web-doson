@@ -122,6 +122,16 @@ function shin_acf_init_block_types() {
             'keywords' => array('blockTestimonial', '2'),
             'mode' => 'auto',
         ));
+        acf_register_block_type(array(
+            'name' => 'blockComingSoon',
+            'title' => __('blockComingSoon'),
+            'description' => __('A custom blockComingSoon block.'),
+            'render_template' => 'site-structure/blocks/blockComingSoon/index.php',
+            'category' => 'shin-blocks',
+            'icon' => 'admin-customizer',
+            'keywords' => array('blockComingSoon', '2'),
+            'mode' => 'auto',
+        ));
 
     }
 }
