@@ -1,7 +1,5 @@
 <footer id="footer" class="footer-section">
-
     <div class="container">
-
         <div class="footer-content  py-2 py-md-4">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-12 mb-50">
@@ -42,7 +40,6 @@
                                     email@truyenthongdoson.com</span>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12  mb-30">
@@ -90,7 +87,6 @@
                             <a href="#"><i class="fab fa-brands fa-tiktok bg-gray-700"></i></a>
                             <a href="#"><i class="fa-brands fa-instagram bg-red-500 "></i></a>
                         </div>
-
                     </div>
                 </div>
             </div>
